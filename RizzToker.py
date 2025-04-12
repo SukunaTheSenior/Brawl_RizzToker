@@ -5,8 +5,8 @@ from deepseek import DeepSeek  # Make sure to install: pip install deepseek-ai
 
 class BrawlStarsTikTokBot:
     def __init__(self):
-        # Initialize DeepSeek AI (replace with your API key)
-        self.ai = DeepSeek(api_key="your-api-key-here")
+        # Initialize DeepSeek AI 
+        self.ai = DeepSeek(api_key=f5b043c4-a97f-44bd-87ec-061197357453")
         
         # TikTok brainrot phrases
         self.brainrot_phrases = [
